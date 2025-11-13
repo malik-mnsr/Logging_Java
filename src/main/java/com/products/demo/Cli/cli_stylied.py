@@ -160,6 +160,8 @@ def signin():
         raise click.ClickException(f"{Colors.RED}❌ Sign in failed: {str(e)}{Colors.END}")
 
 # Product Menu
+# ... your existing imports and constants ...
+
 def show_product_menu():
     """Display an interactive menu for product management."""
     while True:
@@ -171,9 +173,10 @@ def show_product_menu():
         click.echo(f"{Colors.YELLOW}3.{Colors.END} {Colors.GREEN}➕ Add a new product{Colors.END}")
         click.echo(f"{Colors.YELLOW}4.{Colors.END} {Colors.GREEN}✏️  Update a product{Colors.END}")
         click.echo(f"{Colors.YELLOW}5.{Colors.END} {Colors.RED}🗑️  Delete a product{Colors.END}")
-        click.echo(f"{Colors.YELLOW}6.{Colors.END} {Colors.BLUE}← Return to main menu{Colors.END}")
-        
-        choice = click.prompt(f"\n{Colors.BLUE}Enter your choice (1-6){Colors.END}", type=int)
+        click.echo(f"{Colors.YELLOW}6.{Colors.END} {Colors.GREEN}💰 Find expensive products{Colors.END}")
+        click.echo(f"{Colors.YELLOW}7.{Colors.END} {Colors.BLUE}← Return to main menu{Colors.END}")
+
+        choice = click.prompt(f"\n{Colors.BLUE}Enter your choice (1-7){Colors.END}", type=int)
 
         try:
             if choice == 1:
@@ -187,14 +190,55 @@ def show_product_menu():
             elif choice == 5:
                 delete_product()
             elif choice == 6:
+                find_expensive_products()
+            elif choice == 7:
                 click.echo(f"{Colors.YELLOW}Returning to main menu...{Colors.END}")
                 break
             else:
-                click.echo(f"{Colors.RED}❌ Invalid choice. Please select 1-6.{Colors.END}")
+                click.echo(f"{Colors.RED}❌ Invalid choice. Please select 1-7.{Colors.END}")
         except click.ClickException as e:
             click.echo(f"{Colors.RED}{str(e)}{Colors.END}")
         except Exception as e:
             click.echo(f"{Colors.RED}❌ Unexpected error: {str(e)}{Colors.END}")
+
+def find_expensive_products():
+    """Find products above a specified price threshold."""
+    click.echo(f"\n{Colors.GREEN}{Colors.BOLD}💰 FIND EXPENSIVE PRODUCTS{Colors.END}")
+
+    # Get price threshold from user
+    price_threshold = click.prompt(
+        f"{Colors.BLUE}Enter the minimum price threshold{Colors.END}",
+        type=float
+    )
+
+    # Validate the price threshold
+    if price_threshold < 0:
+        raise click.ClickException(f"{Colors.RED}❌ Price threshold cannot be negative.{Colors.END}")
+
+    click.echo(f"{Colors.YELLOW}⏳ Searching for products above ${price_threshold:.2f}...{Colors.END}")
+
+    # Make the API request with the price threshold parameter
+    params = {"priceThreshold": price_threshold}
+    data = make_request("GET", "/api/products/expensive", params=params)
+
+    if data:
+        if not data:
+            click.echo(f"{Colors.YELLOW}📭 No expensive products found above ${price_threshold:.2f}.{Colors.END}")
+            return
+
+        # Display the results in a table
+        table = [[item["id"], item["name"], f"{Colors.YELLOW}${item['price']:.2f}{Colors.END}",
+                  item.get("expirationDate", f"{Colors.RED}N/A{Colors.END}")] for item in data]
+
+        click.echo(f"\n{Colors.GREEN}{Colors.BOLD}💰 EXPENSIVE PRODUCTS (Above ${price_threshold:.2f}):{Colors.END}")
+        click.echo(f"{Colors.CYAN}Found {len(data)} product(s){Colors.END}")
+        click.echo(tabulate(table, headers=[f"{Colors.CYAN}ID{Colors.END}", f"{Colors.CYAN}Name{Colors.END}",
+                                            f"{Colors.CYAN}Price{Colors.END}", f"{Colors.CYAN}Expiration Date{Colors.END}"],
+                            tablefmt="grid"))
+    else:
+        click.echo(f"{Colors.YELLOW}📭 No expensive products found above ${price_threshold:.2f}.{Colors.END}")
+
+# ... rest of your existing code (user menu functions, auth functions, etc.) ...
 
 def list_products():
     """Display all products in a table."""
@@ -396,6 +440,42 @@ def update_user():
         click.echo(tabulate(table, headers=[f"{Colors.CYAN}ID{Colors.END}", f"{Colors.CYAN}Name{Colors.END}", 
                                            f"{Colors.CYAN}Email{Colors.END}", f"{Colors.CYAN}Age{Colors.END}"], 
                            tablefmt="grid"))
+def find_expensive_products():
+    """Find products above a specified price threshold."""
+    click.echo(f"\n{Colors.GREEN}{Colors.BOLD}💰 FIND EXPENSIVE PRODUCTS{Colors.END}")
+
+    # Get price threshold from user
+    price_threshold = click.prompt(
+        f"{Colors.BLUE}Enter the minimum price threshold{Colors.END}",
+        type=float
+    )
+
+    # Validate the price threshold
+    if price_threshold < 0:
+        raise click.ClickException(f"{Colors.RED}❌ Price threshold cannot be negative.{Colors.END}")
+
+    click.echo(f"{Colors.YELLOW}⏳ Searching for products above ${price_threshold:.2f}...{Colors.END}")
+
+    # Make the API request with the price threshold parameter
+    params = {"priceThreshold": price_threshold}
+    data = make_request("GET", "/api/products/expensive", params=params)
+
+    if data:
+        if not data:
+            click.echo(f"{Colors.YELLOW}📭 No expensive products found above ${price_threshold:.2f}.{Colors.END}")
+            return
+
+        # Display the results in a table
+        table = [[item["id"], item["name"], f"{Colors.YELLOW}${item['price']:.2f}{Colors.END}",
+                  item.get("expirationDate", f"{Colors.RED}N/A{Colors.END}")] for item in data]
+
+        click.echo(f"\n{Colors.GREEN}{Colors.BOLD}💰 EXPENSIVE PRODUCTS (Above ${price_threshold:.2f}):{Colors.END}")
+        click.echo(f"{Colors.CYAN}Found {len(data)} product(s){Colors.END}")
+        click.echo(tabulate(table, headers=[f"{Colors.CYAN}ID{Colors.END}", f"{Colors.CYAN}Name{Colors.END}",
+                                            f"{Colors.CYAN}Price{Colors.END}", f"{Colors.CYAN}Expiration Date{Colors.END}"],
+                            tablefmt="grid"))
+    else:
+        click.echo(f"{Colors.YELLOW}📭 No expensive products found above ${price_threshold:.2f}.{Colors.END}")
 
 def delete_user():
     """Delete a user by ID."""

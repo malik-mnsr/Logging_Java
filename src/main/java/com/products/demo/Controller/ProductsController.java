@@ -4,6 +4,8 @@ import com.products.demo.Model.Products;
 import com.products.demo.Service.ProductsService;
 import com.products.demo.exception.ProductException;
 import jakarta.validation.Valid;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/products")
 public class ProductsController {
-
+    private static final Logger logger = LogManager.getLogger(ProductsController.class);
     private final ProductsService productsService;
 
     @Autowired
@@ -22,40 +24,74 @@ public class ProductsController {
         this.productsService = productsService;
     }
 
-    // Get all products
     @GetMapping
     public ResponseEntity<List<Products>> getAllProducts() {
+        logger.info("Fetching all products");
         return ResponseEntity.ok(productsService.getAllProducts());
     }
 
-    // Get product by ID
     @GetMapping("/{id}")
     public ResponseEntity<Products> getProductById(@PathVariable Long id) {
-        return ResponseEntity.ok(productsService.getProductById(id));
+        logger.info("Fetching product with ID: {}", id);
+        try {
+            return ResponseEntity.ok(productsService.getProductById(id));
+        } catch (ProductException e) {
+            logger.error("Failed to fetch product with ID: {}. Error: {}", id, e.getMessage());
+            throw e;
+        }
     }
 
-    // Add a new product
     @PostMapping
     public ResponseEntity<Products> addProduct(@Valid @RequestBody Products product) {
-        return new ResponseEntity<>(productsService.addProduct(product), HttpStatus.CREATED);
+        logger.info("Adding new product: {}", product.getName());
+        try {
+            return new ResponseEntity<>(productsService.addProduct(product), HttpStatus.CREATED);
+        } catch (ProductException e) {
+            logger.error("Failed to add product: {}. Error: {}", product.getName(), e.getMessage());
+            throw e;
+        }
     }
 
-    // Update a product
     @PutMapping("/{id}")
     public ResponseEntity<Products> updateProduct(@PathVariable Long id, @Valid @RequestBody Products product) {
-        return ResponseEntity.ok(productsService.updateProduct(id, product));
+        logger.info("Updating product with ID: {}", id);
+        try {
+            return ResponseEntity.ok(productsService.updateProduct(id, product));
+        } catch (ProductException e) {
+            logger.error("Failed to update product with ID: {}. Error: {}", id, e.getMessage());
+            throw e;
+        }
     }
 
-    // Delete a product
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteProduct(@PathVariable Long id) {
-        productsService.deleteProduct(id);
-        return ResponseEntity.noContent().build();
+        logger.info("Deleting product with ID: {}", id);
+        try {
+            productsService.deleteProduct(id);
+            logger.debug("Product with ID: {} deleted successfully", id);
+            return ResponseEntity.noContent().build();
+        } catch (ProductException e) {
+            logger.error("Failed to delete product with ID: {}. Error: {}", id, e.getMessage());
+            throw e;
+        }
     }
 
-    // Handle ProductException
     @ExceptionHandler(ProductException.class)
     public ResponseEntity<String> handleProductException(ProductException ex) {
+        logger.error("Product exception: {}", ex.getMessage());
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
+    }
+
+    @GetMapping("/expensive")
+    public ResponseEntity<List<Products>> findExpensiveProducts(@RequestParam("priceThreshold") double priceThreshold) {
+        logger.info("Request to find products with price above: {}", priceThreshold);
+        try {
+            List<Products> products = productsService.findExpensiveProducts(priceThreshold);
+            logger.debug("Found {} expensive products", products.size());
+            return ResponseEntity.ok(products);
+        } catch (Exception e) {
+            logger.error("Failed to fetch expensive products. Error: {}", e.getMessage());
+            throw e;
+        }
     }
 }
