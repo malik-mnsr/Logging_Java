@@ -100,6 +100,11 @@
             <artifactId>disruptor</artifactId>
             <version>3.4.4</version>
         </dependency>
+		<dependency>
+			<groupId>fr.inria.gforge.spoon</groupId>
+			<artifactId>spoon-core</artifactId>
+			<version>10.4.2</version> <!-- Use the latest version -->
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -116,6 +121,7 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+			<!-- Exec plugin to run SpoonRunner easily with Maven -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

@@ -6,12 +6,12 @@
     </Properties>
 
     <Appenders>
-
+        <!-- Console -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="${LOG_PATTERN}"/>
         </Console>
 
-
+        <!-- Rolling App Log -->
         <RollingFile name="AppLog" fileName="${LOG_DIR}/application.log"
                      filePattern="${LOG_DIR}/application-%d{yyyy-MM-dd}-%i.log.gz">
             <PatternLayout pattern="${LOG_PATTERN}"/>
@@ -22,7 +22,7 @@
             <DefaultRolloverStrategy max="30"/>
         </RollingFile>
 
-        <!-- File Appender for error logs -->
+        <!-- Rolling Error Log -->
         <RollingFile name="ErrorLog" fileName="${LOG_DIR}/error.log"
                      filePattern="${LOG_DIR}/error-%d{yyyy-MM-dd}-%i.log.gz">
             <PatternLayout pattern="${LOG_PATTERN}"/>
@@ -34,28 +34,40 @@
             <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
         </RollingFile>
 
-
+        <!-- Async Wrappers -->
         <Async name="AsyncAppLog">
             <AppenderRef ref="AppLog"/>
         </Async>
         <Async name="AsyncErrorLog">
             <AppenderRef ref="ErrorLog"/>
         </Async>
+
+        <!-- NEW: JSON File for UserProfileLogger -->
+        <File name="UserJsonFile" fileName="${LOG_DIR}/user-logs.json" append="true">
+            <!-- Only raw message (JSON) -->
+            <PatternLayout pattern="%msg%n"/>
+        </File>
     </Appenders>
 
     <Loggers>
-
+        <!-- Root Logger -->
         <Root level="INFO">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="AsyncAppLog"/>
             <AppenderRef ref="AsyncErrorLog"/>
         </Root>
 
-
+        <!-- Application Logs -->
         <Logger name="com.products.demo" level="DEBUG" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="AsyncAppLog"/>
             <AppenderRef ref="AsyncErrorLog"/>
+        </Logger>
+
+        <!-- JSON Logs ONLY for UserProfileLogger -->
+        <Logger name="com.products.demo.spoon.UserProfileLogger" level="INFO" additivity="false">
+            <AppenderRef ref="UserJsonFile"/>
+            <AppenderRef ref="Console"/> <!-- optional: also print to console -->
         </Logger>
 
         <!-- Spring Framework logging -->
@@ -70,4 +82,89 @@
             <AppenderRef ref="AsyncAppLog"/>
         </Logger>
     </Loggers>
+</Configuration>
+        <?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+<Properties>
+    <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%t] %c{1.} - %msg%n</Property>
+    <Property name="LOG_DIR">logs</Property>
+</Properties>
+
+<Appenders>
+    <!-- Console -->
+    <Console name="Console" target="SYSTEM_OUT">
+        <PatternLayout pattern="${LOG_PATTERN}"/>
+    </Console>
+
+    <!-- Rolling App Log -->
+    <RollingFile name="AppLog" fileName="${LOG_DIR}/application.log"
+                 filePattern="${LOG_DIR}/application-%d{yyyy-MM-dd}-%i.log.gz">
+        <PatternLayout pattern="${LOG_PATTERN}"/>
+        <Policies>
+            <TimeBasedTriggeringPolicy interval="1"/>
+            <SizeBasedTriggeringPolicy size="100 MB"/>
+        </Policies>
+        <DefaultRolloverStrategy max="30"/>
+    </RollingFile>
+
+    <!-- Rolling Error Log -->
+    <RollingFile name="ErrorLog" fileName="${LOG_DIR}/error.log"
+                 filePattern="${LOG_DIR}/error-%d{yyyy-MM-dd}-%i.log.gz">
+        <PatternLayout pattern="${LOG_PATTERN}"/>
+        <Policies>
+            <TimeBasedTriggeringPolicy interval="1"/>
+            <SizeBasedTriggeringPolicy size="100 MB"/>
+        </Policies>
+        <DefaultRolloverStrategy max="30"/>
+        <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+    </RollingFile>
+
+    <!-- Async Wrappers -->
+    <Async name="AsyncAppLog">
+        <AppenderRef ref="AppLog"/>
+    </Async>
+    <Async name="AsyncErrorLog">
+        <AppenderRef ref="ErrorLog"/>
+    </Async>
+
+    <!-- NEW: JSON File for UserProfileLogger -->
+    <File name="UserJsonFile" fileName="${LOG_DIR}/user-logs.json" append="true">
+        <!-- Only raw message (JSON) -->
+        <PatternLayout pattern="%msg%n"/>
+    </File>
+</Appenders>
+
+<Loggers>
+    <!-- Root Logger -->
+    <Root level="INFO">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="AsyncAppLog"/>
+        <AppenderRef ref="AsyncErrorLog"/>
+    </Root>
+
+    <!-- Application Logs -->
+    <Logger name="com.products.demo" level="DEBUG" additivity="false">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="AsyncAppLog"/>
+        <AppenderRef ref="AsyncErrorLog"/>
+    </Logger>
+
+    <!-- JSON Logs ONLY for UserProfileLogger -->
+    <Logger name="com.products.demo.spoon.UserProfileLogger" level="INFO" additivity="false">
+        <AppenderRef ref="UserJsonFile"/>
+        <AppenderRef ref="Console"/> <!-- optional: also print to console -->
+    </Logger>
+
+    <!-- Spring Framework logging -->
+    <Logger name="org.springframework" level="INFO" additivity="false">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="AsyncAppLog"/>
+    </Logger>
+
+    <!-- Hibernate/JPA logging -->
+    <Logger name="org.hibernate" level="WARN" additivity="false">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="AsyncAppLog"/>
+    </Logger>
+</Loggers>
 </Configuration>

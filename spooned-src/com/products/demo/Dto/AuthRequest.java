@@ -1,12 +1,5 @@
 package com.products.demo.Dto;
-
 import jakarta.validation.constraints.NotBlank;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-
 public class AuthRequest {
     @NotBlank(message = "Email is required")
     private String email;
