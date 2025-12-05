@@ -1,0 +1,101 @@
+[ {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 1
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 2
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 4
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 5
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 6
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 7
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 8
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "EXPENSIVE_SEARCH",
+  "endpoint" : "/api/products/expensive",
+  "productId" : 6
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 10
+}, {
+  "userDetails" : {
+    "name" : "alice",
+    "userId" : 2,
+    "email" : "alice@gmail.com",
+    "age" : 15
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 2
+} ]

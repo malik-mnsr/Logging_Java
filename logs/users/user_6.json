@@ -1,0 +1,1816 @@
+[ {
+  "timestamp" : "2025-11-24T00:09:50.094713290+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 15
+}, {
+  "timestamp" : "2025-11-24T00:09:50.096012881+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 16
+}, {
+  "timestamp" : "2025-11-24T00:09:50.096946773+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 17
+}, {
+  "timestamp" : "2025-11-24T00:09:50.099739876+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 18
+}, {
+  "timestamp" : "2025-11-24T00:09:50.101367232+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 19
+}, {
+  "timestamp" : "2025-11-24T00:09:50.102347313+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 20
+}, {
+  "timestamp" : "2025-11-24T00:09:50.103171827+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 21
+}, {
+  "timestamp" : "2025-11-24T00:09:50.103995255+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 22
+}, {
+  "timestamp" : "2025-11-24T00:09:50.104906984+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 23
+}, {
+  "timestamp" : "2025-11-24T00:09:50.106173763+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 24
+}, {
+  "timestamp" : "2025-11-24T00:09:50.107181809+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 25
+}, {
+  "timestamp" : "2025-11-24T00:09:50.108015574+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 26
+}, {
+  "timestamp" : "2025-11-24T00:09:50.108849067+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 27
+}, {
+  "timestamp" : "2025-11-24T00:09:50.109675455+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 28
+}, {
+  "timestamp" : "2025-11-24T00:09:50.110496178+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 29
+}, {
+  "timestamp" : "2025-11-24T00:09:50.111255118+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 30
+}, {
+  "timestamp" : "2025-11-24T00:09:50.112601657+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 31
+}, {
+  "timestamp" : "2025-11-24T00:09:50.113617355+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 32
+}, {
+  "timestamp" : "2025-11-24T00:09:50.114529256+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 33
+}, {
+  "timestamp" : "2025-11-24T00:09:50.115315408+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 34
+}, {
+  "timestamp" : "2025-11-24T00:09:50.116109066+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 35
+}, {
+  "timestamp" : "2025-11-24T00:09:50.117514742+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 37
+}, {
+  "timestamp" : "2025-11-24T00:09:50.119218271+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 38
+}, {
+  "timestamp" : "2025-11-24T00:09:50.121076851+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 39
+}, {
+  "timestamp" : "2025-11-24T00:09:50.123452849+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 40
+}, {
+  "timestamp" : "2025-11-24T00:09:50.125347037+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 41
+}, {
+  "timestamp" : "2025-11-24T00:09:50.127353599+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 42
+}, {
+  "timestamp" : "2025-11-24T00:09:50.129931491+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 43
+}, {
+  "timestamp" : "2025-11-24T00:09:50.131846313+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 44
+}, {
+  "timestamp" : "2025-11-24T00:09:50.133628930+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 45
+}, {
+  "timestamp" : "2025-11-24T00:09:50.356500128+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 2
+}, {
+  "timestamp" : "2025-11-24T00:09:50.596502144+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/products",
+  "productId" : null
+}, {
+  "timestamp" : "2025-11-24T00:09:50.832642950+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 15
+}, {
+  "timestamp" : "2025-11-24T00:09:50.835568768+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 16
+}, {
+  "timestamp" : "2025-11-24T00:09:50.839313705+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 17
+}, {
+  "timestamp" : "2025-11-24T00:09:50.843314832+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 18
+}, {
+  "timestamp" : "2025-11-24T00:09:50.847428987+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 19
+}, {
+  "timestamp" : "2025-11-24T00:09:50.850941432+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 20
+}, {
+  "timestamp" : "2025-11-24T00:09:50.854700533+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 21
+}, {
+  "timestamp" : "2025-11-24T00:09:50.858328170+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 22
+}, {
+  "timestamp" : "2025-11-24T00:09:50.862962143+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 23
+}, {
+  "timestamp" : "2025-11-24T00:09:50.867559892+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 24
+}, {
+  "timestamp" : "2025-11-24T00:09:50.871545224+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 25
+}, {
+  "timestamp" : "2025-11-24T00:09:50.875699265+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 26
+}, {
+  "timestamp" : "2025-11-24T00:09:50.880267761+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 27
+}, {
+  "timestamp" : "2025-11-24T00:09:50.884085507+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 28
+}, {
+  "timestamp" : "2025-11-24T00:09:50.888055233+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 29
+}, {
+  "timestamp" : "2025-11-24T00:09:50.892631229+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 30
+}, {
+  "timestamp" : "2025-11-24T00:09:50.897141777+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 31
+}, {
+  "timestamp" : "2025-11-24T00:09:50.900697+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 32
+}, {
+  "timestamp" : "2025-11-24T00:09:50.904161938+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 33
+}, {
+  "timestamp" : "2025-11-24T00:09:50.907859194+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 34
+}, {
+  "timestamp" : "2025-11-24T00:09:50.912696844+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 35
+}, {
+  "timestamp" : "2025-11-24T00:09:50.916381355+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 37
+}, {
+  "timestamp" : "2025-11-24T00:09:50.920060700+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 38
+}, {
+  "timestamp" : "2025-11-24T00:09:50.924282887+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 39
+}, {
+  "timestamp" : "2025-11-24T00:09:50.928497083+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 40
+}, {
+  "timestamp" : "2025-11-24T00:09:50.933178929+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 41
+}, {
+  "timestamp" : "2025-11-24T00:09:50.937315892+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 42
+}, {
+  "timestamp" : "2025-11-24T00:09:50.941705078+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 43
+}, {
+  "timestamp" : "2025-11-24T00:09:50.947063083+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 44
+}, {
+  "timestamp" : "2025-11-24T00:09:50.949214183+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 45
+}, {
+  "timestamp" : "2025-11-24T00:09:50.952895814+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 46
+}, {
+  "timestamp" : "2025-11-24T00:09:51.182386060+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 15
+}, {
+  "timestamp" : "2025-11-24T00:09:51.186042269+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 16
+}, {
+  "timestamp" : "2025-11-24T00:09:51.189500117+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 17
+}, {
+  "timestamp" : "2025-11-24T00:09:51.193917869+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 18
+}, {
+  "timestamp" : "2025-11-24T00:09:51.199123388+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 19
+}, {
+  "timestamp" : "2025-11-24T00:09:51.203917049+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 20
+}, {
+  "timestamp" : "2025-11-24T00:09:51.209476027+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 21
+}, {
+  "timestamp" : "2025-11-24T00:09:51.215685852+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 22
+}, {
+  "timestamp" : "2025-11-24T00:09:51.220287392+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 23
+}, {
+  "timestamp" : "2025-11-24T00:09:51.224257562+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 24
+}, {
+  "timestamp" : "2025-11-24T00:09:51.228897569+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 25
+}, {
+  "timestamp" : "2025-11-24T00:09:51.234826086+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 26
+}, {
+  "timestamp" : "2025-11-24T00:09:51.240553080+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 27
+}, {
+  "timestamp" : "2025-11-24T00:09:51.246673767+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 28
+}, {
+  "timestamp" : "2025-11-24T00:09:51.252707859+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 29
+}, {
+  "timestamp" : "2025-11-24T00:09:51.258384822+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 30
+}, {
+  "timestamp" : "2025-11-24T00:09:51.264656370+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 31
+}, {
+  "timestamp" : "2025-11-24T00:09:51.270461465+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 32
+}, {
+  "timestamp" : "2025-11-24T00:09:51.276108608+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 33
+}, {
+  "timestamp" : "2025-11-24T00:09:51.282449703+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 34
+}, {
+  "timestamp" : "2025-11-24T00:09:51.286553689+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 35
+}, {
+  "timestamp" : "2025-11-24T00:09:51.291208640+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 37
+}, {
+  "timestamp" : "2025-11-24T00:09:51.295449056+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 38
+}, {
+  "timestamp" : "2025-11-24T00:09:51.299962917+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 39
+}, {
+  "timestamp" : "2025-11-24T00:09:51.303331951+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 40
+}, {
+  "timestamp" : "2025-11-24T00:09:51.306631811+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 41
+}, {
+  "timestamp" : "2025-11-24T00:09:51.310790275+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 42
+}, {
+  "timestamp" : "2025-11-24T00:09:51.313738555+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 43
+}, {
+  "timestamp" : "2025-11-24T00:09:51.315710870+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 44
+}, {
+  "timestamp" : "2025-11-24T00:09:51.318687952+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 45
+}, {
+  "timestamp" : "2025-11-24T00:09:51.321658913+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 46
+}, {
+  "timestamp" : "2025-11-24T00:09:51.761300474+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/products",
+  "productId" : null
+}, {
+  "timestamp" : "2025-11-24T00:09:52.633876730+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 1
+}, {
+  "timestamp" : "2025-11-24T00:09:52.855742746+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 13
+}, {
+  "timestamp" : "2025-11-24T00:09:53.075641921+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 14
+}, {
+  "timestamp" : "2025-11-24T00:09:53.297484067+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 3
+}, {
+  "timestamp" : "2025-11-24T00:09:53.961467496+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 3
+}, {
+  "timestamp" : "2025-11-24T00:09:54.181969526+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 15
+}, {
+  "timestamp" : "2025-11-24T00:09:54.184196002+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 16
+}, {
+  "timestamp" : "2025-11-24T00:09:54.187322645+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 17
+}, {
+  "timestamp" : "2025-11-24T00:09:54.190778621+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 18
+}, {
+  "timestamp" : "2025-11-24T00:09:54.194423076+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 19
+}, {
+  "timestamp" : "2025-11-24T00:09:54.198207954+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 20
+}, {
+  "timestamp" : "2025-11-24T00:09:54.201740335+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 21
+}, {
+  "timestamp" : "2025-11-24T00:09:54.205234024+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 22
+}, {
+  "timestamp" : "2025-11-24T00:09:54.208995988+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 23
+}, {
+  "timestamp" : "2025-11-24T00:09:54.212538937+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 24
+}, {
+  "timestamp" : "2025-11-24T00:09:54.215779324+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 25
+}, {
+  "timestamp" : "2025-11-24T00:09:54.219893905+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 26
+}, {
+  "timestamp" : "2025-11-24T00:09:54.224100313+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 27
+}, {
+  "timestamp" : "2025-11-24T00:09:54.228248366+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 28
+}, {
+  "timestamp" : "2025-11-24T00:09:54.231611298+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 29
+}, {
+  "timestamp" : "2025-11-24T00:09:54.234885725+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 30
+}, {
+  "timestamp" : "2025-11-24T00:09:54.238259511+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 31
+}, {
+  "timestamp" : "2025-11-24T00:09:54.241379148+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 32
+}, {
+  "timestamp" : "2025-11-24T00:09:54.244394136+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 33
+}, {
+  "timestamp" : "2025-11-24T00:09:54.247352282+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 34
+}, {
+  "timestamp" : "2025-11-24T00:09:54.249620218+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 35
+}, {
+  "timestamp" : "2025-11-24T00:09:54.251177443+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 37
+}, {
+  "timestamp" : "2025-11-24T00:09:54.252660869+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 38
+}, {
+  "timestamp" : "2025-11-24T00:09:54.253991+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 39
+}, {
+  "timestamp" : "2025-11-24T00:09:54.257119765+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 40
+}, {
+  "timestamp" : "2025-11-24T00:09:54.259600908+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 41
+}, {
+  "timestamp" : "2025-11-24T00:09:54.261567503+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 42
+}, {
+  "timestamp" : "2025-11-24T00:09:54.264868158+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 43
+}, {
+  "timestamp" : "2025-11-24T00:09:54.268674420+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 44
+}, {
+  "timestamp" : "2025-11-24T00:09:54.272404810+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 45
+}, {
+  "timestamp" : "2025-11-24T00:09:54.276559958+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 46
+}, {
+  "timestamp" : "2025-11-24T00:09:54.280956516+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 47
+}, {
+  "timestamp" : "2025-11-24T00:09:54.500278193+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 15
+}, {
+  "timestamp" : "2025-11-24T00:09:54.501811241+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 16
+}, {
+  "timestamp" : "2025-11-24T00:09:54.505006420+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 17
+}, {
+  "timestamp" : "2025-11-24T00:09:54.506826303+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 18
+}, {
+  "timestamp" : "2025-11-24T00:09:54.508735595+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 19
+}, {
+  "timestamp" : "2025-11-24T00:09:54.510412934+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 20
+}, {
+  "timestamp" : "2025-11-24T00:09:54.511911979+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 21
+}, {
+  "timestamp" : "2025-11-24T00:09:54.513297496+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 22
+}, {
+  "timestamp" : "2025-11-24T00:09:54.514696249+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 23
+}, {
+  "timestamp" : "2025-11-24T00:09:54.516384793+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 24
+}, {
+  "timestamp" : "2025-11-24T00:09:54.517842513+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 25
+}, {
+  "timestamp" : "2025-11-24T00:09:54.519307083+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 26
+}, {
+  "timestamp" : "2025-11-24T00:09:54.520735650+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 27
+}, {
+  "timestamp" : "2025-11-24T00:09:54.522388094+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 28
+}, {
+  "timestamp" : "2025-11-24T00:09:54.524797963+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 29
+}, {
+  "timestamp" : "2025-11-24T00:09:54.529551525+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 30
+}, {
+  "timestamp" : "2025-11-24T00:09:54.535309970+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 31
+}, {
+  "timestamp" : "2025-11-24T00:09:54.541379471+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 32
+}, {
+  "timestamp" : "2025-11-24T00:09:54.544774203+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 33
+}, {
+  "timestamp" : "2025-11-24T00:09:54.548293253+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 34
+}, {
+  "timestamp" : "2025-11-24T00:09:54.551680614+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 35
+}, {
+  "timestamp" : "2025-11-24T00:09:54.554982163+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 37
+}, {
+  "timestamp" : "2025-11-24T00:09:54.560098932+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 38
+}, {
+  "timestamp" : "2025-11-24T00:09:54.568152896+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 39
+}, {
+  "timestamp" : "2025-11-24T00:09:54.573649530+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 40
+}, {
+  "timestamp" : "2025-11-24T00:09:54.579548649+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 41
+}, {
+  "timestamp" : "2025-11-24T00:09:54.585529842+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 42
+}, {
+  "timestamp" : "2025-11-24T00:09:54.589893382+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 43
+}, {
+  "timestamp" : "2025-11-24T00:09:54.596729896+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 44
+}, {
+  "timestamp" : "2025-11-24T00:09:54.603040600+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 45
+}, {
+  "timestamp" : "2025-11-24T00:09:54.610271370+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 46
+}, {
+  "timestamp" : "2025-11-24T00:09:54.618094553+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "READ",
+  "endpoint" : "/api/products",
+  "productId" : 47
+}, {
+  "timestamp" : "2025-11-24T00:09:54.848541978+01:00[Europe/Paris]",
+  "userDetails" : {
+    "name" : "TestUser",
+    "userId" : 6,
+    "email" : "user13@mail.com",
+    "age" : 25
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/products/{id}",
+  "productId" : 9
+} ]

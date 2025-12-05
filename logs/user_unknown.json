@@ -1,0 +1,12 @@
+[ {
+  "userDetails" : {
+    "principalType" : "String",
+    "name" : null,
+    "userId" : null,
+    "email" : null,
+    "age" : null
+  },
+  "operation" : "WRITE",
+  "endpoint" : "/api/auth/login",
+  "productId" : null
+} ]
